@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(252, 252, 252);
+}
+
+.cardView {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    background-image: url('../img/basefrente.png');
+    background-repeat: no-repeat;
+    width: 348px;
+    height: 234px;
+    transition: all 0.5s;
+    border-radius: 15px;
+}
+
+.cardView input[type="text"] {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+    color: #191970;
+    cursor:default;
+}
+
+.cardView input[type="text"]:focus {
+    outline-style: none;
+    
+}
+
+#txtCPF {
+    width: 336px;
+    font-size: 18px;
+    top: 100px;
+    left: 5px
+}
+
+#txtTitulo {
+    width: 336px;
+    font-size: 12px;
+    top: 56px;
+    left: 5px;
+    line-height: 17px;
+}
+
+#txtNum{
+    font-size: 13px;
+}
+
+#txtStatusTitle{
+    border-bottom: 0px hidden;
+    font-weight: bold;
+}
+
+
+
+.cardView:hover{
+    scale: 1.2;
+    rotate: -5deg;
+    
+}
+
+.checkCpfForm{
+    font-family: 'Arial';
+    padding: 30px;
+    flex-direction: column;
+    display: flex;
+    background-color: #fff;
+    margin: 0 auto;
+    height: 500px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 3px 7px 15px -1px rgba(0,0,0,0.75);
+}
+
+/*Texto informativo que não possui vinculo com a RFB*/
+
+.txtInfoRFB{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #ffe16bde;
+    transition: 0.1s;
+
+}
+
+.txtInfoRFB p {
+    text-justify: justify;
+    color: #856404;
+    font-size: 12px;
+}
+
+.txtInfoRFB h5{
+    margin: 1px;
+    color: #856404;
+    font-weight: bold;
+}
+
+.txtInfoRFB:hover{
+    scale: 1.2;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Verificador de CPF</title>
+    
+
+</head>
+<body>
+    <div class="checkCpfForm">
+
+        <h2>Verificador de CPF</h2>
+        <input id="cpf" type="text" maxlength="14" placeholder="Número do CPF">
+        <h6>Ao digitar o número de CPF, será verificado automaticamente.</h6>
+
+        <div class="cardView">
+            <input id="txtTitulo"  type="text" value="VALIDAÇÃO DE CPF" readonly="">
+            <input id="txtNum"  type="text" value="Número" readonly="">
+            <input id="txtCPF"  type="text" value="XXX.XXX.XXX-00" readonly="">
+            <input id="txtStatusTitle" type="text" value="STATUS" readonly="">
+            <input id="txtState" type="text" value="AGUARDANDO VERIFICAÇÃO" readonly="">
+        </div>
+        <div class="txtInfoRFB">
+            <h5>Atenção!</h5>
+            <p>Esta página não é oficial da Receita Federal Brasileira em também não possui vinculo algum com a instituição.</p>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
